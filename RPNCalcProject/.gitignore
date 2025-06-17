@@ -1,0 +1,5 @@
+.*clangd
+
+Debug/
+Release/
+.settings/
