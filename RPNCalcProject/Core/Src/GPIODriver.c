@@ -4,8 +4,8 @@
 
 static const uint8_t RW = BIT1;
 static const uint8_t RS = BIT2;
-static const uint8_t ENABLE = BIT8;
-static const uint16_t DELAY = 500;
+static const uint8_t ENABLE = BIT7;
+static const uint16_t DELAY = 1000;
 
 void GPIOSetup(void)
 {

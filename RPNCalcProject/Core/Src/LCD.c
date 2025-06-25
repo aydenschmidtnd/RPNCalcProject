@@ -3,7 +3,7 @@
 
 #include <string.h>
 
-static const uint16_t DELAY = 500;
+static const uint16_t DELAY = 1000;
 static const uint8_t ENABLE_DELAY = 32;
 static const uint8_t MAX_LCD_CHARACTERS = 16;
 
