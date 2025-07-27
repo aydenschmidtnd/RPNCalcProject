@@ -6,20 +6,25 @@
 
 typedef enum
 {
-    CHARACTER_NUMBER_ZERO = 48,
-    CHARACTER_NUMBER_ONE,
-    CHARACTER_NUMBER_TWO,
-    CHARACTER_NUMBER_THREE,
-    CHARACTER_NUMBER_FOUR,
-    CHARACTER_NUMBER_FIVE,
-    CHARACTER_NUMBER_SIX,
-    CHARACTER_NUMBER_SEVEN,
-    CHARACTER_NUMBER_EIGHT,
-    CHARACTER_NUMBER_NINE,
-} CHARACTER_NUMBER;
+    LCD_LINE_ONE = 0x80,
+    LCD_LINE_TWO = 0xC0,
+} LCD_LINE;
+
+typedef enum
+{
+    INSTRUCTION_CLEAR_LCD = 1,
+    INSTRUCTION_RETURN_HOME = 2,
+} INSTRUCTION;
 
 void LCDWriteCharacter(uint8_t characterData);
-void LCDInstruction(uint8_t instructionData);
-void LCDWriteString(char string[]);
+void LCDWriteInstruction(uint8_t instructionData);
+
+/*
+* Description: Writes a string to a 16x2 LCD screen. 
+* Parameters: *lcdLineNumber: LCD line to write to.
+*             *lcdOffset: lcdOffset from first column of LCD.
+*             *string: String to write to LCD.
+*/
+void LCDWriteString(const LCD_LINE lcdLineNumber, const uint8_t lcdOffset, const char string[]);
 
 #endif

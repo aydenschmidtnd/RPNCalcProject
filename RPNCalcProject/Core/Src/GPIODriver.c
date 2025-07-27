@@ -1,34 +1,29 @@
 #include "GPIODriver.h"
+#include "SPI.h"
 #include <stdint.h>
 #include <msp430.h>
 
-static const uint8_t RW = BIT1;
-static const uint8_t RS = BIT2;
-static const uint8_t ENABLE = BIT7;
-static const uint16_t DELAY = 1000;
-
 void GPIOSetup(void)
 {
-    P1DIR |= 0xFF;
-    P2DIR |= 0xFF;
-    
-    P1SEL = 0;
-    P2SEL = 0;
-    P1SEL2 = 0;
+    //Sets up LCD pins for Output
+    P2DIR |= LCD_ENABLE + LCD_RW + LCD_RS + SHIFT_REGISTER_RCLK;
+    //Sets up LCD pins for GPIO
     P2SEL2 = 0;
-
-    __delay_cycles(DELAY);
+    P2SEL = 0;
 }
 
+/* LCD FUNCTIONS ========================================================================================================*/
+
+/*Sets the Enable Pin */
 void SetEnablePin(bool setEnablePin)
 {
     if(setEnablePin)
     {
-        P2OUT |= ENABLE;
+        P2OUT |= LCD_ENABLE;
     }
     else 
     {
-        P2OUT &= ~ENABLE;
+        P2OUT &= ~LCD_ENABLE;
     }
 }
 
@@ -36,11 +31,11 @@ void SetRWPin(bool setRWPin)
 {
     if(setRWPin)
     {
-        P2OUT |= RW;
+        P2OUT |= LCD_RW;
     }
     else 
     {
-        P2OUT &= ~RW;
+        P2OUT &= ~LCD_RW;
     }
 }
 
@@ -48,20 +43,12 @@ void SetRSPin(bool setRSPin)
 {
     if(setRSPin)
     {
-        P2OUT |= RS;
+        P2OUT |= LCD_RS;
     }
     else 
     {
-        P2OUT &= ~RS;
+        P2OUT &= ~LCD_RS;
     }
 }
 
-void SetLCDDataPins(uint8_t data)
-{
-    P1OUT = data;
-}
-
-void ClearLCDDataPins(void)
-{
-    P1OUT &= ~0xFF;
-}
+/* LCD FUNCTIONS ========================================================================================================*/
