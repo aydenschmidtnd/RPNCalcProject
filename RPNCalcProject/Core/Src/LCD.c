@@ -47,12 +47,12 @@ void LCDWriteString(const LCD_LINE lcdLineNumber, uint8_t lcdOffset, const char 
         lcdOffset = MAX_LCD_OFFSET;
     }
 
-    if((lcdLineNumber == LCD_LINE_ONE) && (CurrentLCDLine != LCD_LINE_ONE))
+    if((lcdLineNumber == LCD_LINE_ONE))
     {
         LCDWriteInstruction(LCD_LINE_ONE + lcdOffset);
         CurrentLCDLine = LCD_LINE_ONE;
     }
-    else if((lcdLineNumber == LCD_LINE_TWO) && (CurrentLCDLine != LCD_LINE_TWO))
+    else if((lcdLineNumber == LCD_LINE_TWO))
     {
         LCDWriteInstruction(LCD_LINE_TWO + lcdOffset);
         CurrentLCDLine = LCD_LINE_TWO;
@@ -67,4 +67,12 @@ void LCDWriteString(const LCD_LINE lcdLineNumber, uint8_t lcdOffset, const char 
     {
         LCDWriteCharacter(*(string++));
     }
+}
+
+void InitLCD(void)
+{
+    LCDWriteInstruction(60);
+    LCDWriteInstruction(4);
+    LCDWriteInstruction(14);
+    LCDWriteInstruction(INSTRUCTION_CLEAR_LCD);
 }

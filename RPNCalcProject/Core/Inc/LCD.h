@@ -4,6 +4,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 
+#define MAX_LCD_BUFFER 17
+
 typedef enum
 {
     LCD_LINE_ONE = 0x80,
@@ -26,5 +28,6 @@ void LCDWriteInstruction(uint8_t instructionData);
 *             *string: String to write to LCD.
 */
 void LCDWriteString(const LCD_LINE lcdLineNumber, const uint8_t lcdOffset, const char string[]);
+void InitLCD(void);
 
 #endif
