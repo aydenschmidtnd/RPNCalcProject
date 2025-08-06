@@ -1,0 +1,9 @@
+1) Figure out how many buttons I want
+
+2) Figure out how I want buttons to be handled
+
+3) Attach buttons to breadboard and MCU
+
+4) Create button logic
+
+5) Test button logic
