@@ -10,7 +10,7 @@ void InitSPI()
     //MSB First, 8-bit, Master, 3-pin mode, Synchronous
     UCA0CTL0 |= UCCKPH + UCMSB + UCMST + UCSYNC;
     UCA0CTL1 |= UCSSEL_2;                     // SMCLK
-    UCA0BR0 |= 0x20;                          // 500Khz SCLK
+    UCA0BR0 |= 0x02;                          // 500Khz SCLK
     UCA0BR1 = 0;                              // 500Khz SCLK
     UCA0MCTL = 0;                             // No modulation must be cleared for SPI
 
@@ -18,6 +18,7 @@ void InitSPI()
     P1SEL2 |= SHIFT_REGISTER_SER + SHIFT_REGISTER_SRCLK;
 
     UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
+    __delay_cycles(100000);
 }
 
 void WriteShiftRegister(uint8_t data)
