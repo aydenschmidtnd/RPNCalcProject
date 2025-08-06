@@ -1,36 +1,113 @@
 #include <msp430.h>
 #include <stdint.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <stdio.h>
 
 #include "SPI.h"
 #include "LCD.h"
-#include "main.h"
+#include "I2C.h"
 #include "GPIODriver.h"
+#include "Timer.h"
+#include "main.h"
+
+volatile extern uint64_t timer_count;
 
 int main(void)
 {
-    WDTCTL = WDTPW + WDTHOLD;
-
-    GPIOSetup();
+    WDTCTL = WDTPW + WDTHOLD; //Stop Watchdog Timer
+    
     InitClockTo16MHz();
-    __delay_cycles(100000);
+    /*Init Peripherals*/
+    InitGPIO();
     InitSPI();
-    __delay_cycles(100000);
+    InitI2C();
+    /*Init Devices*/
+    InitMCP23017();
+    InitLCD();
 
-    LCDWriteInstruction(60);
-    LCDWriteInstruction(4);
-    LCDWriteInstruction(14);
-    LCDWriteInstruction(INSTRUCTION_CLEAR_LCD);
+    InitTimer();
 
     bool writeInstruction = true;
+    uint8_t buttonCheck = 100;
 
-    while(1)
-    {   
-        if(writeInstruction)
+    uint64_t currentTime = 0;
+    uint64_t pastTime = 0;
+
+    bool flagOne = false;
+    bool flagTwo = false;
+    bool flagThree = false;
+    bool flagFour = false;
+    char LCD_Buffer[MAX_LCD_BUFFER] = "                ";
+    uint8_t index = 0;
+    while(true)
+    {
+        WriteMCP23017(0x12, ~0x01);  //Turn COL 1 on
+        __delay_cycles(100000);
+        buttonCheck = ReadMCP23017(0x13);
+        switch(buttonCheck)
         {
-            LCDWriteString(LCD_LINE_ONE, 0, "YOU'RE CUTE <3");
-            LCDWriteString(LCD_LINE_TWO, 0, "SARAH MY LOVE.");
-            writeInstruction = false;
+            case 1:
+                if(flagOne == false)
+                {
+                    LCD_Buffer[index++] = '1';
+                    flagOne = true;
+                }
+                break;
+            case 2: 
+                if(flagTwo == false)
+                {
+                    LCD_Buffer[index++] = '3';
+                    flagTwo = true;
+                }
+                break;
+            default:
+                break;
         }
+        __delay_cycles(100000);
+        if(ReadMCP23017(0x13) == 0)
+        {
+            flagOne = false;
+            flagTwo = false;
+        }
+        if(index == 16){index = 0;}
+        WriteMCP23017(0x12, 0x01);
+        __delay_cycles(100000);
+
+        WriteMCP23017(0x12, ~0x02);
+        __delay_cycles(100000);
+        buttonCheck = ReadMCP23017(0x13);
+        switch(buttonCheck)
+        {
+            case 1:
+                if(flagThree == false)
+                {
+                    LCD_Buffer[index++] = '2';
+                    flagThree = true;
+                }
+                break;
+            case 2: 
+                if(flagFour == false)
+                {
+                    LCD_Buffer[index++] = '4';
+                    flagFour = true;
+                }
+                break;
+            default:
+                break;
+        }
+        __delay_cycles(100000);
+        if(ReadMCP23017(0x13) == 0)
+        {
+            flagThree = false;
+            flagFour = false;
+        }
+        if(index == 16){index = 0;}
+        
+        WriteMCP23017(0x12, 0x02);
+        __delay_cycles(100000);
+
+        LCDWriteString(LCD_LINE_ONE, 0, LCD_Buffer);
     }
 }
 
@@ -43,4 +120,5 @@ void InitClockTo16MHz()
     DCOCTL = 0;                               // Select lowest DCOx and MODx settings
     BCSCTL1 = CALBC1_16MHZ;                    // Set DCO
     DCOCTL = CALDCO_16MHZ;
+    __delay_cycles(100000);
 }
