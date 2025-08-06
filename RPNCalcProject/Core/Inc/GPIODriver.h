@@ -10,7 +10,7 @@
 #define LCD_RW BIT1
 #define LCD_RS BIT2
 
-void GPIOSetup(void);
+void InitGPIO(void);
 
 /*
 * Description: Sets the enable pin to control the 16x2 LCD.

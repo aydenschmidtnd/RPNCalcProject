@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <msp430.h>
 
-void GPIOSetup(void)
+void InitGPIO(void)
 {
     //Sets up LCD pins for Output
     P2DIR |= LCD_ENABLE + LCD_RW + LCD_RS + SHIFT_REGISTER_RCLK;
