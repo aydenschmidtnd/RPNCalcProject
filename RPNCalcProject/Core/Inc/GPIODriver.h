@@ -5,10 +5,10 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-/* PORT 2*/
+/*PORT 2*/
 #define LCD_ENABLE BIT0
-#define LCD_RW BIT1
-#define LCD_RS BIT2
+#define LCD_RW     BIT1
+#define LCD_RS     BIT2
 
 void InitGPIO(void);
 

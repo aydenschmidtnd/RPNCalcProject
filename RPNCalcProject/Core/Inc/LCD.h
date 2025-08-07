@@ -4,7 +4,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define MAX_LCD_BUFFER 17
+#define MAX_LCD_BUFFER        (17U)
+#define MAX_LCD_STRING_LENGTH (16U)
 
 typedef enum
 {
@@ -14,12 +15,12 @@ typedef enum
 
 typedef enum
 {
-    INSTRUCTION_CLEAR_LCD = 1,
-    INSTRUCTION_RETURN_HOME = 2,
-} INSTRUCTION;
+    INSTRUCTION_LCD_CLEAR = 1,
+    INSTRUCTION_LCD_RETURN_HOME = 2,
+} INSTRUCTION_LCD;
 
-void LCDWriteCharacter(uint8_t characterData);
-void LCDWriteInstruction(uint8_t instructionData);
+void WriteLCDCharacter(uint8_t characterData);
+void WriteLCDInstruction(uint8_t instructionData);
 
 /*
 * Description: Writes a string to a 16x2 LCD screen. 
@@ -27,7 +28,7 @@ void LCDWriteInstruction(uint8_t instructionData);
 *             *lcdOffset: lcdOffset from first column of LCD.
 *             *string: String to write to LCD.
 */
-void LCDWriteString(const LCD_LINE lcdLineNumber, const uint8_t lcdOffset, const char string[]);
+void WriteLCDString(const LCD_LINE lcdLineNumber, const uint8_t lcdOffset, const char string[]);
 void InitLCD(void);
 
 #endif

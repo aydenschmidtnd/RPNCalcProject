@@ -4,75 +4,67 @@
 
 #include <string.h>
 
-static const uint16_t LCD_WRITE_DELAY = 4000;
-static const uint16_t LCD_CLEAR_DELAY = 20000;
-static const uint8_t ENABLE_DELAY = 32;
+#define LCD_WRITE_DELAY    (4000U)
+#define LCD_CLEAR_DELAY    (20000U)
+#define ENABLE_DELAY       (32U)
 
-static const uint8_t MAX_LCD_CHARACTERS = 16;
-static const uint8_t MAX_LCD_OFFSET = 15;
+#define MAX_LCD_OFFSET     (15U)
 
-static LCD_LINE CurrentLCDLine;
+#define HIGH true
+#define LOW false 
 
-void LCDWriteCharacter(uint8_t characterData)
+void WriteLCDCharacter(uint8_t characterData)
 {
-    SetRSPin(true);
-    SetRWPin(false);
+    SetRSPin(HIGH);
+    SetRWPin(LOW);
 
-    WriteShiftRegister(characterData);
-    SetEnablePin(true);
+    Write74HC595(characterData);
+    SetEnablePin(HIGH);
     __delay_cycles(ENABLE_DELAY);
-    SetEnablePin(false);
+    SetEnablePin(LOW);
 
-    if(characterData == INSTRUCTION_CLEAR_LCD){__delay_cycles(LCD_CLEAR_DELAY);}
+    if(characterData == INSTRUCTION_LCD_CLEAR){__delay_cycles(LCD_CLEAR_DELAY);}
     else{__delay_cycles(LCD_WRITE_DELAY);}
 }
 
-void LCDWriteInstruction(const uint8_t instructionData)
+void WriteLCDInstruction(const uint8_t instructionData)
 {
-    SetRSPin(false);
-    SetRWPin(false);
+    SetRSPin(LOW);
+    SetRWPin(LOW);
 
-    WriteShiftRegister(instructionData);
-    SetEnablePin(true);
+    Write74HC595(instructionData);
+    SetEnablePin(HIGH);
     __delay_cycles(ENABLE_DELAY);
-    SetEnablePin(false);
+    SetEnablePin(LOW);
 
     __delay_cycles(LCD_WRITE_DELAY);
 }
 
-void LCDWriteString(const LCD_LINE lcdLineNumber, uint8_t lcdOffset, const char string[])
+void WriteLCDString(const LCD_LINE lcdLineNumber, uint8_t lcdOffset, const char string[])
 {
-    if(lcdOffset > MAX_LCD_OFFSET)
+    if(lcdOffset > MAX_LCD_OFFSET){lcdOffset = MAX_LCD_STRING_LENGTH;}
+
+    switch(lcdLineNumber)
     {
-        lcdOffset = MAX_LCD_OFFSET;
+        case LCD_LINE_ONE:
+            WriteLCDInstruction(LCD_LINE_ONE + lcdOffset);
+            break;
+
+        case LCD_LINE_TWO:
+            WriteLCDInstruction(LCD_LINE_TWO + lcdOffset);
+            break;
     }
 
-    if((lcdLineNumber == LCD_LINE_ONE))
-    {
-        LCDWriteInstruction(LCD_LINE_ONE + lcdOffset);
-        CurrentLCDLine = LCD_LINE_ONE;
-    }
-    else if((lcdLineNumber == LCD_LINE_TWO))
-    {
-        LCDWriteInstruction(LCD_LINE_TWO + lcdOffset);
-        CurrentLCDLine = LCD_LINE_TWO;
-    }
+    if((strlen(string) + lcdOffset) > MAX_LCD_STRING_LENGTH){return;}
 
-    if((strlen(string) + lcdOffset) > MAX_LCD_CHARACTERS)
-    {
-        return;
-    }
     /*Write all characters of string to LCD till Null Character*/
-    while(*string != '\0')
-    {
-        LCDWriteCharacter(*(string++));
-    }
+    while(*string != '\0'){WriteLCDCharacter(*(string++)); }
 }
 
 void InitLCD(void)
 {
-    LCDWriteInstruction(60);
-    LCDWriteInstruction(4);
-    LCDWriteInstruction(14);
-    LCDWriteInstruction(INSTRUCTION_CLEAR_LCD);
+    WriteLCDInstruction(60);
+    WriteLCDInstruction(4);
+    WriteLCDInstruction(14);
+    WriteLCDInstruction(INSTRUCTION_LCD_CLEAR);
 }

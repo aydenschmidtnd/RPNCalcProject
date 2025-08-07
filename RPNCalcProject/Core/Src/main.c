@@ -107,7 +107,7 @@ int main(void)
         WriteMCP23017(0x12, 0x02);
         __delay_cycles(100000);
 
-        LCDWriteString(LCD_LINE_ONE, 0, LCD_Buffer);
+        WriteLCDString(LCD_LINE_ONE, 0, LCD_Buffer);
     }
 }
 
