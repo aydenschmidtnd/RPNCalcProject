@@ -13,3 +13,8 @@
 3) **RCLK** = 2.4 (UCA0CLK)
 4) **SRCLK** = 1.4 (UCA0CLK)
 5) **SRCLR** = pullup
+
+### MCP23017 IO Expander
+1) **SCK** = 1.6 
+2) **SDA** = 1.7
+3) **A0, A1, A2** = pulldown
