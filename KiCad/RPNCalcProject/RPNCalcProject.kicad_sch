@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "0021c1e3-eb77-4e33-94aa-717ee3dc739d")
-	(paper "A4")
+	(paper "User" 355.6 279.4)
 	(lib_symbols
 		(symbol "74xx:74HC595"
 			(exclude_from_sim no)
@@ -2270,10 +2270,653 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(global_label "GPIOB1"
+	(rectangle
+		(start 15.24 83.82)
+		(end 88.9 148.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 19f4ea48-0a25-4a1d-bcb1-355b4ea35067)
+	)
+	(rectangle
+		(start 274.32 101.6)
+		(end 340.36 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 268db51f-cb26-418e-a69c-aaab6abf80ce)
+	)
+	(rectangle
+		(start 215.9 83.82)
+		(end 266.7 140.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 46887a57-4fd7-41e0-b6ed-507f31805ab4)
+	)
+	(rectangle
+		(start 274.32 13.97)
+		(end 342.9 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b9809a1e-83a3-4ca9-a1f5-811b29c96dc1)
+	)
+	(rectangle
+		(start 15.24 15.24)
+		(end 88.9 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ba44828d-b02f-4aa1-8c6e-740872308054)
+	)
+	(rectangle
+		(start 135.89 13.97)
+		(end 266.7 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb0ca65f-5ed2-4cfc-ad21-d9e0becf0689)
+	)
+	(text "74HC595 \nShift Register\n"
+		(exclude_from_sim no)
+		(at 241.3 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a1390d5-02a7-49ea-8b75-9bce28edcab5")
+	)
+	(text "Put potentiometer here\n"
+		(exclude_from_sim no)
+		(at 327.152 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b23255f-f834-40cd-9502-d2bb8bb0160a")
+	)
+	(text "MSP430G2553 MCU\n"
+		(exclude_from_sim no)
+		(at 201.93 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9983064b-0063-454e-8c24-21f2b9187d73")
+	)
+	(text "MCP23017\nI/O Expander\n"
+		(exclude_from_sim no)
+		(at 307.34 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b067914d-9660-45be-ad2e-07723778b9bf")
+	)
+	(text "16x2 LCD Screen\n"
+		(exclude_from_sim no)
+		(at 305.308 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b57d232b-0c85-4948-a19f-ca06b938833c")
+	)
+	(text "Power Supply\n"
+		(exclude_from_sim no)
+		(at 51.816 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6ba769f-c403-4054-b2dd-da26386479d1")
+	)
+	(text "Put a button here"
+		(exclude_from_sim no)
+		(at 148.336 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5e68f1e-7aa7-4e09-8027-da2e8fc395fb")
+	)
+	(junction
+		(at 247.65 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ecabc6d-85c6-40be-8825-cdee91f7c1db")
+	)
+	(junction
+		(at 255.27 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4822e5e-3f37-4090-90c2-1d58bbe2c07f")
+	)
+	(no_connect
+		(at 251.46 125.73)
+		(uuid "30eadf66-95a5-45e4-8593-38eb6ed8141b")
+	)
+	(no_connect
+		(at 158.75 57.15)
+		(uuid "3e6376c5-6f8f-4a94-b24a-fc46f542fc8b")
+	)
+	(no_connect
+		(at 158.75 54.61)
+		(uuid "5debe461-52b3-41e3-b5cd-c40fbe48b0dc")
+	)
+	(no_connect
+		(at 158.75 59.69)
+		(uuid "7853630a-2345-4d54-ada8-fd9a861bd138")
+	)
+	(no_connect
+		(at 158.75 49.53)
+		(uuid "8d7eb5e1-cedd-45e3-8e1b-3611c523be5c")
+	)
+	(no_connect
+		(at 245.11 41.91)
+		(uuid "9a3142f7-2a49-4583-b8ef-802b1a610e3e")
+	)
+	(no_connect
+		(at 245.11 52.07)
+		(uuid "a2882d96-fe6b-491f-be5c-29c3d73a0ad9")
+	)
+	(no_connect
+		(at 289.56 54.61)
+		(uuid "a2a1b8f3-203b-4cd3-b0ee-121feccd99a6")
+	)
+	(no_connect
+		(at 245.11 46.99)
+		(uuid "ac54f966-6877-4c5b-9e9f-952892764c26")
+	)
+	(no_connect
+		(at 325.12 57.15)
+		(uuid "b1554290-174a-4470-a2c2-e89c9d12de90")
+	)
+	(no_connect
+		(at 289.56 57.15)
+		(uuid "dc275fa1-4f24-4892-b8f9-fee1b923f56b")
+	)
+	(no_connect
+		(at 325.12 80.01)
+		(uuid "de6b8cc1-34c1-4985-a7a3-7e18cc1759ff")
+	)
+	(no_connect
+		(at 245.11 39.37)
+		(uuid "e5a362bb-952b-4850-82a9-f0e11b2a599a")
+	)
+	(no_connect
+		(at 245.11 35.56)
+		(uuid "ec7356f2-bc5b-4e28-baea-7ef53920a289")
+	)
+	(wire
+		(pts
+			(xy 247.65 54.61) (xy 247.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22614f80-6dd7-4f15-b194-cab2b27f53da")
+	)
+	(wire
+		(pts
+			(xy 247.65 54.61) (xy 245.11 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e62ec91-f19a-47c2-ad4f-f188a9bd1141")
+	)
+	(wire
+		(pts
+			(xy 255.27 57.15) (xy 245.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9b0ee0-6d02-488c-968c-a8e727630e85")
+	)
+	(wire
+		(pts
+			(xy 259.08 57.15) (xy 255.27 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c06389-e979-489a-a007-9c7056f2b1cc")
+	)
+	(wire
+		(pts
+			(xy 247.65 54.61) (xy 259.08 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9dafe29-4154-4871-bb8a-e0ead8131bd5")
+	)
+	(wire
+		(pts
+			(xy 255.27 57.15) (xy 255.27 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5de8e6c-0737-4a89-89c5-f26f88384927")
+	)
+	(global_label "LCD_D4"
+		(shape input)
+		(at 294.64 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c00d8ca-0941-4c66-8c8b-146925296e15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.6396 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB2"
 		(shape output)
-		(at 124.46 102.87 0)
+		(at 152.4 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2281,9 +2924,9 @@
 			)
 			(justify left)
 		)
-		(uuid "410bc41f-b2b3-4ed1-9dae-36db1c1bfa77")
+		(uuid "19053a92-2c30-4fa7-90b3-9ad6200c44c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.4 102.87 0)
+			(at 160.4047 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,9 +2936,383 @@
 			)
 		)
 	)
-	(global_label "GPIOA0"
+	(global_label "P2.1"
 		(shape input)
-		(at 106.68 96.52 180)
+		(at 294.64 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d739e3e-0094-43b4-a530-bb0509a492e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.361 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1.2"
+		(shape output)
+		(at 231.14 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e0702c8-a979-459d-96c6-4e3fdb97851a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.861 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1.6"
+		(shape output)
+		(at 259.08 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e6f9623-5750-4b0e-b361-e84f33aa9b0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.359 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D7"
+		(shape input)
+		(at 294.64 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20974390-c19a-4977-ba9a-c672faefff46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.6396 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D2"
+		(shape input)
+		(at 294.64 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2195e8b6-3940-4a4e-a98f-0353497c7805")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.6396 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA0"
+		(shape input)
+		(at 134.62 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "258b48e8-5886-4940-942b-66b05d3a3ebe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.7967 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D0"
+		(shape input)
+		(at 294.64 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28b38710-6377-4677-a4d1-4d5b9eb291cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.6396 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1.7"
+		(shape output)
+		(at 259.08 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d79b85b-2443-4be8-ab7f-485a7acc5ba4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.359 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB0"
+		(shape input)
+		(at 325.12 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35af054a-e07a-4da5-be40-4be71b124e58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.1247 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA0"
+		(shape input)
+		(at 134.62 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "397035e6-3c3d-4f5f-9bae-3103b24ea6ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.7967 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D3"
+		(shape input)
+		(at 294.64 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ebc945a-5d60-4cb6-ba2f-14a02a99b775")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.6396 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA0"
+		(shape input)
+		(at 134.62 218.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4387fc32-68c9-4041-98c2-253484b85bda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.7967 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB1"
+		(shape input)
+		(at 325.12 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4690a8d9-64a3-46e2-b95c-d176a243eee6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.1247 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D1"
+		(shape input)
+		(at 294.64 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f6a2d1b-71fa-45d3-94d3-9ed003edb432")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.6396 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D6"
+		(shape input)
+		(at 294.64 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "522a1135-8808-4e21-b1e7-dcd30223f17a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.6396 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB4"
+		(shape output)
+		(at 152.4 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "533941e8-3eb1-4cbf-af71-6aa8f1e56d30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.4047 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2.0"
+		(shape output)
+		(at 158.75 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58fa6048-8c55-42dd-9460-aeecbbd4d5fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.471 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA0"
+		(shape input)
+		(at 134.62 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2305,7 +3322,7 @@
 		)
 		(uuid "5d745d63-0c17-49e0-a91f-8ad8c4e7c605")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9214 96.52 0)
+			(at 126.7967 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,9 +3332,53 @@
 			)
 		)
 	)
-	(global_label "GPIOA0"
+	(global_label "GPB5"
 		(shape input)
-		(at 106.68 102.87 180)
+		(at 325.12 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5df27d77-8115-438c-bcdc-658f5ac485eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.1247 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB4"
+		(shape input)
+		(at 325.12 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66015932-9baa-4056-858f-d8ef70dd1d58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.1247 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA0"
+		(shape input)
+		(at 134.62 224.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2325,9 +3386,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9f7057e3-e3c3-4582-836b-f0e78651f3a4")
+		(uuid "699ade25-878d-49f1-9906-cb19386b4f58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9214 102.87 0)
+			(at 126.7967 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,9 +3398,515 @@
 			)
 		)
 	)
-	(global_label "GPIOB0"
+	(global_label "GPA5"
 		(shape output)
-		(at 124.46 96.52 0)
+		(at 325.12 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6abecb92-66cf-424a-8a4d-2086ad160d18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.9433 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D5"
+		(shape input)
+		(at 294.64 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75f84215-f87c-4395-9b12-947665499e25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.6396 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D7"
+		(shape output)
+		(at 251.46 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76891194-5bae-4115-b700-90ab106c0063")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.4604 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1.4"
+		(shape output)
+		(at 231.14 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "768f2041-acec-4cc4-8163-c6d2fc69379f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.861 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2.4"
+		(shape output)
+		(at 158.75 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84f3c92b-a6c0-4deb-9364-bc7474d23338")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.471 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA4"
+		(shape output)
+		(at 325.12 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "910e31dc-b164-4416-b57b-bbe480a8d834")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.9433 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA6"
+		(shape output)
+		(at 325.12 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "940d1f3e-7ce4-4896-ae91-262d7fd3a2d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.9433 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1.4"
+		(shape output)
+		(at 245.11 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9493f65d-e8ba-4e83-9a7e-2f2813d6af33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.389 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB6"
+		(shape input)
+		(at 325.12 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95f7a9f8-1061-41f6-a8e0-c46500dc5c67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.1247 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB6"
+		(shape output)
+		(at 152.4 224.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "977342cb-4464-4785-ad1b-5ece899353c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.4047 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D2"
+		(shape output)
+		(at 251.46 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b829dc6-7b36-44cf-8b56-668af126b200")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.4604 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D0"
+		(shape output)
+		(at 251.46 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a070f197-ba4a-48e7-97ab-ba5178512b76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.4604 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D3"
+		(shape output)
+		(at 251.46 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a48549a3-a070-4e82-b92a-c97b18215473")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.4604 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB5"
+		(shape output)
+		(at 152.4 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abaf1e83-cedd-41f4-b9bc-c101e4716a92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.4047 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB3"
+		(shape input)
+		(at 325.12 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aec1a164-a904-4642-9a4c-401b0f6fdbd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.1247 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2.0"
+		(shape input)
+		(at 294.64 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b21d672a-7914-4679-b8ac-e982bd11fb7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.361 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2.2"
+		(shape input)
+		(at 294.64 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b25b2340-0e1e-45ee-b7a1-ee533aa5e892")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.361 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1.7"
+		(shape input)
+		(at 289.56 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2f4fcde-76b2-4908-b9bb-8658dc82b67e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.281 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB3"
+		(shape output)
+		(at 152.4 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b45a84f9-4f06-495a-bbf7-3f50ec5e3f83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.4047 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D6"
+		(shape output)
+		(at 251.46 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b54432fd-4524-4824-9e75-64a3b88098b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.4604 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB1"
+		(shape output)
+		(at 152.4 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbb70e22-bf4b-40fd-b554-9a429b5da644")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.4047 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2.1"
+		(shape output)
+		(at 158.75 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc9c69c6-7c43-4f68-ae91-7b135ec51388")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.471 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA0"
+		(shape input)
+		(at 134.62 205.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be8b5e73-69f8-4b40-ba4f-cde5773e1689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.7967 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB0"
+		(shape output)
+		(at 152.4 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2349,7 +3916,293 @@
 		)
 		(uuid "c3a5e174-1906-495e-87b8-ffbcdb8a6ef1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.4 96.52 0)
+			(at 160.4047 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA0"
+		(shape output)
+		(at 325.12 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6a070e2-100a-4f79-a83b-410a1efcc9b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.9433 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA1"
+		(shape output)
+		(at 325.12 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0c85633-6983-486c-9e90-ef08f18c6420")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.9433 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D4"
+		(shape output)
+		(at 251.46 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0ee980e-d870-47a1-a9a7-e7d207eacfcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.4604 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D1"
+		(shape output)
+		(at 251.46 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d84dd75b-33c2-4254-ae45-b040da9c5f06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.4604 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2.2"
+		(shape output)
+		(at 158.75 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da9145d3-1d90-405f-9262-0d2387e2c451")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.471 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA2"
+		(shape output)
+		(at 325.12 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc2b1e62-c6a3-49c1-ab8b-a8d957b3989a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.9433 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_D5"
+		(shape output)
+		(at 251.46 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e64003f3-8230-44e7-8e62-73dc274eea84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.4604 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA0"
+		(shape input)
+		(at 134.62 212.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8002c44-0c2b-429f-bc93-6e41ad49c233")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.7967 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2.4"
+		(shape output)
+		(at 231.14 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f581d12a-dcf6-4ca7-a4cf-d2de1f0734ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.861 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPA3"
+		(shape output)
+		(at 325.12 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6fd7d85-edca-4e32-9b17-bca8ea0ae882")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.9433 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1.2"
+		(shape output)
+		(at 245.11 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8d92a07-b2e8-4399-bb93-737863faf5bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.389 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1.6"
+		(shape input)
+		(at 289.56 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb94f694-bac1-40db-a56c-aa0feec582e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.281 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPB2"
+		(shape input)
+		(at 325.12 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd0ce5ea-74bb-4cfa-a0bf-487246dc9052")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.1247 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,17 +4213,215 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 175.9808 67.25 0)
+		(lib_id "power:GND")
+		(at 304.8 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "01b68a18-7742-4521-9ff9-128ef26bc0a7")
-		(property "Reference" "D20"
-			(at 175.9808 60.9 0)
+		(uuid "07588aa3-6155-4525-91da-449c7d04aa7f")
+		(property "Reference" "#PWR012"
+			(at 304.8 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 304.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 304.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34e204f8-212f-4117-a908-76bd3917edc8")
+		)
+		(instances
+			(project "RPNCalcProject"
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 314.96 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07fafb70-2efc-4d17-951b-5f052807958b")
+		(property "Reference" "#PWR010"
+			(at 321.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b40716b6-ccf9-41df-bec4-2817ae2544f4")
+		)
+		(instances
+			(project "RPNCalcProject"
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cfa02f5-1cd0-410c-a976-337b4b0f68a7")
+		(property "Reference" "#PWR014"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "063cb9a7-61da-4bbe-bf14-abc3a91aff91")
+		)
+		(instances
+			(project "RPNCalcProject"
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 148.59 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "125b501e-ccd3-4f43-a1ff-cacbdaeb22ef")
+		(property "Reference" "D7"
+			(at 148.59 221.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,15 +4429,16 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 175.9808 63.44 0)
+			(at 148.59 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 175.9808 71.695 0)
+			(at 148.59 229.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +4447,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 175.9808 67.25 0)
+			(at 148.59 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +4456,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 175.9808 67.25 0)
+			(at 148.59 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +4465,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 175.9808 67.25 0)
+			(at 148.59 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +4474,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 175.9808 67.25 0)
+			(at 148.59 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,15 +4483,148 @@
 			)
 		)
 		(pin "1"
-			(uuid "86ae34e9-4281-48c5-a0cb-bb48c3aa24a6")
+			(uuid "9ef7a3bc-d33f-44c1-af3f-b8cfe9d5748c")
 		)
 		(pin "2"
-			(uuid "f5e46e49-89f2-474c-91fc-2b646f3953b4")
+			(uuid "53e64a4a-6ec0-434f-bfbc-f69a954edd4f")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D20")
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 307.34 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13aa2743-4652-4659-8250-7e6950ac861a")
+		(property "Reference" "#PWR04"
+			(at 307.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 307.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 307.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d0f6b47-910f-4dee-bff1-7aa669cf5c8f")
+		)
+		(instances
+			(project "RPNCalcProject"
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bc1fcbe-da66-481c-98ed-121b6d889800")
+		(property "Reference" "#PWR03"
+			(at 283.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 285.75 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 289.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "552b7b9a-f458-4869-9e7b-95757b7f709e")
+		)
+		(instances
+			(project "RPNCalcProject"
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2447,16 +4632,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5G")
-		(at 96.52 156.21 0)
+		(at 139.7 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0989b397-0d00-42ee-ba79-62fd1aa060d0")
-		(property "Reference" "SW21"
-			(at 96.52 151.13 0)
+		(uuid "1ead952f-62cd-433e-acc7-5039acd00665")
+		(property "Reference" "SW7"
+			(at 139.7 220.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +4648,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G"
-			(at 96.52 151.13 0)
+			(at 139.7 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +4657,7 @@
 			)
 		)
 		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 96.52 151.13 0)
+			(at 139.7 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,7 +4666,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 96.52 151.13 0)
+			(at 139.7 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +4675,7 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 96.52 156.21 0)
+			(at 139.7 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,793 +4684,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "2164ea8a-7e80-447a-b3f9-ed46f6166b77")
+			(uuid "d55fafb0-a3b3-4abc-9e64-09f19ab4c537")
 		)
 		(pin "1"
-			(uuid "8d266747-046d-4848-9fc0-100464401ecd")
+			(uuid "5328a830-541c-457f-8f54-ce437577859e")
 		)
 		(pin "4"
-			(uuid "a52ae6f9-79c6-4b03-9d7a-ba4cbf92548c")
+			(uuid "1ae1417b-cafb-46dc-8c2c-d7fb3ebf8ac7")
 		)
 		(pin "2"
-			(uuid "4c4b2d7b-e6b1-453e-be54-a4fb97d83048")
+			(uuid "92ca4f55-2dea-4134-b9e1-bb5caa65e0d2")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 109.22 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c4797fe-85b8-4c61-9189-442a9f167d11")
-		(property "Reference" "SW22"
-			(at 109.22 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 109.22 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 109.22 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 109.22 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 109.22 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a06bdfb1-8e90-4afc-b3fc-726961ef6b8e")
-		)
-		(pin "1"
-			(uuid "fb568a4c-71c1-4ca0-ad17-91d436f7b7d2")
-		)
-		(pin "4"
-			(uuid "742db292-1860-48fd-a41d-ea9b3204df6b")
-		)
-		(pin "2"
-			(uuid "e7455310-2c24-4eb8-83c9-043ba28b5abc")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 96.52 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11ee6169-7a3b-4376-9b08-9be49b49920f")
-		(property "Reference" "SW16"
-			(at 96.52 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 96.52 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 96.52 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 96.52 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 96.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "549cd2bd-2d9b-484c-96ea-54fefc87bf7f")
-		)
-		(pin "1"
-			(uuid "ecab3d86-e9db-422d-a7f2-8ee4c5af6344")
-		)
-		(pin "4"
-			(uuid "c285e81e-5889-4a05-82a2-e30c151bab8e")
-		)
-		(pin "2"
-			(uuid "85dbcbed-dd4f-4822-907f-487affd30c1e")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 133.0328 167.7687 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15e7ec6c-f1f1-47b7-936b-538c1a9d3918")
-		(property "Reference" "SW34"
-			(at 133.0328 162.6887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 133.0328 162.6887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 133.0328 162.6887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 133.0328 162.6887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 133.0328 167.7687 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "50a5a055-af4f-4b9e-97d8-c947e950d64e")
-		)
-		(pin "1"
-			(uuid "c0adcbb1-a0e4-4340-8daa-ccbb965f643b")
-		)
-		(pin "4"
-			(uuid "f22f2ec9-ec78-4a3e-8ff8-bd1735e5963c")
-		)
-		(pin "2"
-			(uuid "8ef5fe83-e273-43b2-b0a9-c794aa9080bf")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 175.26 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16b3e35f-e011-4340-ba92-aade9ab92e51")
-		(property "Reference" "D16"
-			(at 175.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 175.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 175.26 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 175.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 175.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "260d4243-da46-4e7f-82c2-d9b022bbef41")
-		)
-		(pin "2"
-			(uuid "8b10fbb2-69d2-4728-9f5e-6d1b0917ee57")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 131.7628 149.9887 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18aa315d-d0e1-4c39-a525-600225b20e46")
-		(property "Reference" "SW19"
-			(at 131.7628 144.9087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 131.7628 144.9087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 131.7628 144.9087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 131.7628 144.9087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 131.7628 149.9887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "333c8771-96f6-403f-a816-34843bc29f5c")
-		)
-		(pin "1"
-			(uuid "6c1394d1-2e7b-43cb-9604-89ab29b6699f")
-		)
-		(pin "4"
-			(uuid "8e76d41f-e341-45d3-9437-752a453a8412")
-		)
-		(pin "2"
-			(uuid "a17d4217-69f9-4987-b645-b9131b9cfa75")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 199.6043 36.1437 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b2832b6-b2c5-4aa7-bc30-010ce60be8ef")
-		(property "Reference" "D28"
-			(at 199.6043 29.7937 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 199.6043 32.3337 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 199.6043 40.5887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 199.6043 36.1437 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 199.6043 36.1437 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 199.6043 36.1437 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 199.6043 36.1437 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc26cb10-5a3a-4ed9-a738-f656d12a24d4")
-		)
-		(pin "2"
-			(uuid "c347d298-6d1c-47d9-bfce-c48f7d4c0667")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 129.2228 137.2887 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b85b5b4-97f6-40c9-8c26-a3e14a6f6123")
-		(property "Reference" "SW9"
-			(at 129.2228 132.2087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 129.2228 132.2087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 129.2228 132.2087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 129.2228 132.2087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 129.2228 137.2887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "134107ed-c468-4cb2-8a89-397704db441f")
-		)
-		(pin "1"
-			(uuid "806f04e5-5095-4a86-b454-31a146705460")
-		)
-		(pin "4"
-			(uuid "e185dff7-3534-43d4-a19d-84f5bc5ae168")
-		)
-		(pin "2"
-			(uuid "1985620a-42e5-457d-90d5-5c6d3b87beb4")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 146.0075 160.6979 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d1858ea-307c-49c8-be3a-b299aef7ae4c")
-		(property "Reference" "SW30"
-			(at 146.0075 155.6179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 146.0075 155.6179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 146.0075 155.6179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 146.0075 155.6179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 146.0075 160.6979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c5691e6e-6156-423a-af0a-7fc7922d7a7d")
-		)
-		(pin "1"
-			(uuid "46e646b4-09f3-4723-96ab-c20c71729130")
-		)
-		(pin "4"
-			(uuid "f2676a54-d92d-44e3-a7a9-ff7b3af3e2a0")
-		)
-		(pin "2"
-			(uuid "867be189-be42-408a-a1aa-7e7701e5c73b")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 131.7628 156.3387 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f02fd8f-6101-45ce-aeee-8a8340ceea89")
-		(property "Reference" "SW24"
-			(at 131.7628 151.2587 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 131.7628 151.2587 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 131.7628 151.2587 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 131.7628 151.2587 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 131.7628 156.3387 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6a0de59a-a135-4e70-a5ff-b379ef19b17e")
-		)
-		(pin "1"
-			(uuid "1aa8b7c7-7f31-4e19-87a4-35e2081bea3c")
-		)
-		(pin "4"
-			(uuid "3bd70b24-202a-4fe7-99ad-6a1e25fd8fee")
-		)
-		(pin "2"
-			(uuid "76cfc8fa-d294-4259-b9bb-369c339f6fcc")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 105.41 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20445714-5762-4b83-96c9-6652009d8e23")
-		(property "Reference" "SW12"
-			(at 105.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 105.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 105.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 105.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 105.41 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5cc5d179-56f7-42f4-b879-b774b90d5d5e")
-		)
-		(pin "1"
-			(uuid "933758bd-ecdb-4407-a6b6-449370367f7f")
-		)
-		(pin "4"
-			(uuid "e951dcd2-7fad-4c89-9fbd-8319f0bb78b6")
-		)
-		(pin "2"
-			(uuid "e50942c9-2e2b-4e76-b910-ecd06600e0ad")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW12")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -3294,16 +4706,15 @@
 	)
 	(symbol
 		(lib_id "Display_Character:WC1602A")
-		(at 219.71 114.3 0)
+		(at 304.8 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "27ffbd0c-9438-4f80-9d8b-3fdcb6f3e5c7")
 		(property "Reference" "DS2"
-			(at 221.8533 91.44 0)
+			(at 301.244 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,7 +4723,7 @@
 			)
 		)
 		(property "Value" "WC1602A"
-			(at 221.8533 93.98 0)
+			(at 301.244 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3321,7 +4732,7 @@
 			)
 		)
 		(property "Footprint" "Display:WC1602A"
-			(at 219.71 137.16 0)
+			(at 304.8 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +4742,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf"
-			(at 237.49 114.3 0)
+			(at 322.58 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +4751,7 @@
 			)
 		)
 		(property "Description" "LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD"
-			(at 219.71 114.3 0)
+			(at 304.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,103 +4817,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 206.9759 39.5585 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cd00411-7b5a-4bd8-9741-f47443a4c330")
-		(property "Reference" "D32"
-			(at 206.9759 33.2085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 206.9759 35.7485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 206.9759 44.0035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 206.9759 39.5585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 206.9759 39.5585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 206.9759 39.5585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 206.9759 39.5585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec850406-1066-499b-915c-f2f6bb1ed70a")
-		)
-		(pin "2"
-			(uuid "939d7974-d479-421d-a57f-a0e253c32b0a")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_MEC_5G")
-		(at 96.9749 173.8188 0)
+		(at 139.7 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d997c1c-a770-454b-98f3-ad91c7ca5fa4")
-		(property "Reference" "SW36"
-			(at 96.9749 168.7388 0)
+		(uuid "3b6fede7-9f9a-4d93-af78-0fd2ce7c5cda")
+		(property "Reference" "SW5"
+			(at 139.7 208.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +4834,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G"
-			(at 96.9749 168.7388 0)
+			(at 139.7 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +4843,7 @@
 			)
 		)
 		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 96.9749 168.7388 0)
+			(at 139.7 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +4852,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 96.9749 168.7388 0)
+			(at 139.7 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +4861,7 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 96.9749 173.8188 0)
+			(at 139.7 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,107 +4870,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "cbf5153b-d90e-44b8-bfb1-4aff7646d1e3")
+			(uuid "4506b1dd-6745-4c89-b160-6f9342619888")
 		)
 		(pin "1"
-			(uuid "07aae04b-7a53-48a5-b792-784131d6815d")
+			(uuid "fc8f718d-ff57-444d-96c1-bb02f48e0dde")
 		)
 		(pin "4"
-			(uuid "b4cd6c5b-56e3-4dda-bb0e-596352086544")
+			(uuid "497992de-17a6-416b-85f0-1412ae81db91")
 		)
 		(pin "2"
-			(uuid "9321a0ae-75d7-48ee-b310-4f8acf36ffad")
+			(uuid "979c2a4c-38de-4d25-ba99-8883eeb4595e")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 187.4108 67.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31ea9912-8934-44f2-a544-af845088b00c")
-		(property "Reference" "D25"
-			(at 187.4108 60.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 187.4108 63.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 187.4108 71.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 187.4108 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 187.4108 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 187.4108 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 187.4108 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43090824-ff18-4134-82d3-9eb5c4592137")
-		)
-		(pin "2"
-			(uuid "9c6f67ec-f09d-4131-a9bd-21dd456d59fc")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D25")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -3654,490 +4892,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5G")
-		(at 127.9528 143.6387 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32483240-48c7-479d-bea5-a263c53728df")
-		(property "Reference" "SW14"
-			(at 127.9528 138.5587 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 127.9528 138.5587 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 127.9528 138.5587 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 127.9528 138.5587 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 127.9528 143.6387 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f7d6d2a6-8e0e-4f04-94f7-5a9c65745402")
-		)
-		(pin "1"
-			(uuid "8380e150-6f9c-4b18-af99-b101e5cedb8a")
-		)
-		(pin "4"
-			(uuid "0d0c8e09-1e48-43ff-9427-0939b391d651")
-		)
-		(pin "2"
-			(uuid "590f0cd9-71ab-4259-9995-8b810e0d74a3")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 109.22 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3441802a-9331-4bf5-a302-6880714126c9")
-		(property "Reference" "SW17"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 109.22 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b19a53e5-9d65-4dbb-ae2a-2d5b7055c468")
-		)
-		(pin "1"
-			(uuid "ceb9b442-ec6f-4507-8168-7155fda34891")
-		)
-		(pin "4"
-			(uuid "ecea13df-f9d5-4c04-8a32-f7b1462d1bc2")
-		)
-		(pin "2"
-			(uuid "65e64cf1-0157-4519-93f5-7737b4e87cae")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 175.4743 43.7637 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36717fab-4831-432b-bc5d-3e721a0796c3")
-		(property "Reference" "D19"
-			(at 175.4743 37.4137 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 175.4743 39.9537 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 175.4743 48.2087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 175.4743 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 175.4743 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.4743 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.4743 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53dde4de-5032-4b65-b7f8-9936c773382a")
-		)
-		(pin "2"
-			(uuid "7ef253f8-a1c1-4adb-aa1f-8ebbff4393df")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 186.69 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3872a2af-3ff4-48e1-af72-a3c66171c513")
-		(property "Reference" "D21"
-			(at 186.69 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 186.69 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 186.69 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 186.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 186.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 186.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 186.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7df4873a-e8de-4249-922e-2dd154f1835e")
-		)
-		(pin "2"
-			(uuid "b45e462b-826b-4d2b-8b57-ff49f46b5f84")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 199.6043 43.7637 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b7302c8-a320-48dd-8694-476ba5c49f59")
-		(property "Reference" "D29"
-			(at 199.6043 37.4137 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 199.6043 39.9537 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 199.6043 48.2087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 199.6043 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 199.6043 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 199.6043 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 199.6043 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eee2aa6b-5e2d-4376-851f-fdba56dab455")
-		)
-		(pin "2"
-			(uuid "cf37cdc4-f140-4cf8-bf53-1110b442c211")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 97.79 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4354e947-bb2e-436b-8ca7-163e9af260bf")
-		(property "Reference" "SW26"
-			(at 97.79 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 97.79 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 97.79 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 97.79 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b6860ea1-dd7a-4352-8fd0-1ab9c8b1fafb")
-		)
-		(pin "1"
-			(uuid "75dc263b-4e71-427c-8d4a-fd60d6bd5122")
-		)
-		(pin "4"
-			(uuid "b47857ae-1bf2-423f-b0c2-bc4f82c7b0b1")
-		)
-		(pin "2"
-			(uuid "dcbba17a-723a-48ee-a640-169c39bd3ab0")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 111.76 96.52 0)
+		(at 139.7 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4145,7 +4900,7 @@
 		(dnp no)
 		(uuid "470bdbb2-ec87-43e0-8f99-f465622a2f31")
 		(property "Reference" "SW1"
-			(at 111.76 92.456 0)
+			(at 139.7 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4908,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G"
-			(at 111.76 91.44 0)
+			(at 139.7 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4917,7 @@
 			)
 		)
 		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 111.76 91.44 0)
+			(at 139.7 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4926,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 111.76 91.44 0)
+			(at 139.7 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4935,7 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 111.76 96.52 0)
+			(at 139.7 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,25 +4965,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 144.7375 155.6179 0)
+		(lib_id "power:+5V")
+		(at 241.3 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4e1ba1f2-a894-43bc-98d4-6ad381658cff")
-		(property "Reference" "SW25"
-			(at 144.7375 150.5379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 144.7375 150.5379 0)
+		(uuid "471cf923-1b80-4c9f-8946-510a4be13a87")
+		(property "Reference" "#PWR013"
+			(at 241.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,8 +4983,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 144.7375 150.5379 0)
+		(property "Value" "+5V"
+			(at 241.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,8 +5000,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 144.7375 150.5379 0)
+		(property "Datasheet" ""
+			(at 241.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,64 +5009,39 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 144.7375 155.6179 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 241.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "83361a8a-eba7-43dc-8cc0-10ed2d5be929")
 		)
 		(pin "1"
-			(uuid "444873f4-be85-4710-8bc0-aeb3ee4f5a33")
-		)
-		(pin "4"
-			(uuid "d4bddbe3-4dcf-41be-9fbf-2d49a6ffd7ad")
-		)
-		(pin "2"
-			(uuid "8014e928-8e22-4aef-91f6-02164ac36283")
+			(uuid "ae48bbce-4938-427f-a162-90f9dd1b6aef")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW25")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 152.6143 43.7637 0)
+		(lib_id "power:+5V")
+		(at 307.34 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ab8f0d8-cfa8-427a-84ad-4ef3b64a0244")
-		(property "Reference" "D9"
-			(at 152.6143 37.4137 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 152.6143 39.9537 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 152.6143 48.2087 0)
+		(uuid "501fd84a-8bb7-4f41-a38f-b5539fdf5aaf")
+		(property "Reference" "#PWR05"
+			(at 307.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,8 +5049,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 152.6143 43.7637 0)
+		(property "Value" "+5V"
+			(at 307.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,8 +5066,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 152.6143 43.7637 0)
+		(property "Datasheet" ""
+			(at 307.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,17 +5075,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 152.6143 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.6143 43.7637 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 307.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,15 +5085,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "35b51677-1a33-470a-935a-e2fc927942de")
-		)
-		(pin "2"
-			(uuid "971f4cd1-8cde-44c3-8bc8-12283453a345")
+			(uuid "386a5a74-c0a0-4f62-945c-5d6b77aa9a79")
 		)
 		(instances
-			(project "RPNCalcProject"
+			(project ""
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D9")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4372,16 +5098,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 168.91 0)
+		(at 247.65 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5b99843e-3ec5-4993-91db-8e7933c699f2")
 		(property "Reference" "R1"
-			(at 44.45 167.6399 0)
+			(at 249.174 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,8 +5114,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 44.45 170.1799 0)
+		(property "Value" "10k"
+			(at 249.174 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +5124,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.132 168.91 90)
+			(at 245.872 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +5133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 168.91 0)
+			(at 247.65 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +5142,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.91 168.91 0)
+			(at 247.65 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,33 +5166,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 164.5508 67.25 0)
+		(lib_id "power:GND")
+		(at 255.27 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5fa70256-0a24-4744-b608-f3ad7b5f338b")
-		(property "Reference" "D15"
-			(at 164.5508 60.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 164.5508 63.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 164.5508 71.695 0)
+		(uuid "5dfe7f77-ef46-4578-bf44-4de6fe93958e")
+		(property "Reference" "#PWR018"
+			(at 255.27 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,8 +5184,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 164.5508 67.25 0)
+		(property "Value" "GND"
+			(at 255.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,8 +5201,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 164.5508 67.25 0)
+		(property "Datasheet" ""
+			(at 255.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,17 +5210,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 164.5508 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 164.5508 67.25 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,15 +5220,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "2516b7eb-5273-4cb4-be1b-7b6d4908543c")
-		)
-		(pin "2"
-			(uuid "efa7a8eb-e510-42c2-b3ee-d6d35db19272")
+			(uuid "0ff1cecd-54c8-4196-bf28-0dd974dfa085")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D15")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "711fa95d-73e8-4d51-8ae3-0619a8321caa")
+		(property "Reference" "#PWR016"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78d799cc-d301-42a5-a075-34a53555e365")
+		)
+		(instances
+			(project "RPNCalcProject"
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4528,16 +5300,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5G")
-		(at 121.4998 160.8781 0)
+		(at 139.7 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "650815e5-d6fd-4669-9278-e609088fce0b")
-		(property "Reference" "SW28"
-			(at 121.4998 155.7981 0)
+		(uuid "713e08a6-3669-4dfa-a8f1-68ca58054002")
+		(property "Reference" "SW3"
+			(at 139.7 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +5316,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G"
-			(at 121.4998 155.7981 0)
+			(at 139.7 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +5325,7 @@
 			)
 		)
 		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 121.4998 155.7981 0)
+			(at 139.7 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +5334,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 121.4998 155.7981 0)
+			(at 139.7 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +5343,7 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 121.4998 160.8781 0)
+			(at 139.7 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,514 +5352,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "761f9e7e-4e48-4256-aa74-9880e7a650a8")
+			(uuid "b8f664db-2d47-46f9-a6e9-141f53e3f8e1")
 		)
 		(pin "1"
-			(uuid "98e40044-abe0-4115-a587-6dd62d282bc6")
+			(uuid "68df065f-a104-4cc9-a556-6da2e82aa6e1")
 		)
 		(pin "4"
-			(uuid "aed77281-daf9-4577-bcd6-977372acf0c8")
+			(uuid "c580a729-d889-450a-9501-92f272a5991a")
 		)
 		(pin "2"
-			(uuid "7288cfd2-dfb4-4e84-b9a5-4f6589e0af45")
+			(uuid "cf56add1-28b4-46be-9e9a-4002a55ede51")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 163.83 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "685300ed-907d-4740-81c8-77467eccd41a")
-		(property "Reference" "D11"
-			(at 163.83 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 163.83 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 163.83 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 163.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 163.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 163.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cba242cb-34da-4187-9e67-07dc2f30f6aa")
-		)
-		(pin "2"
-			(uuid "efc142e5-5255-48a3-b305-058a02836c26")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 164.0102 51.5722 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b444186-808a-4fb5-a77a-097d139c0b93")
-		(property "Reference" "D12"
-			(at 164.0102 45.2222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 164.0102 47.7622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 164.0102 56.0172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 164.0102 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 164.0102 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 164.0102 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 164.0102 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a5992e7-2b6b-4815-aa60-c068a04c8254")
-		)
-		(pin "2"
-			(uuid "761f51f7-16b3-46fc-b138-71de463d6bd9")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 164.0443 43.7637 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b7e7488-ed3d-486e-9f77-f044f9d99b6b")
-		(property "Reference" "D14"
-			(at 164.0443 37.4137 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 164.0443 39.9537 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 164.0443 48.2087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 164.0443 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 164.0443 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 164.0443 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 164.0443 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "569f86b3-6528-4125-8b4d-e07a3f4d7f65")
-		)
-		(pin "2"
-			(uuid "ee8e1da3-d521-4d25-8a89-2e2d6f64134b")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 199.5702 51.5722 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c589e6b-b63a-44a8-866d-270064d4a89a")
-		(property "Reference" "D27"
-			(at 199.5702 45.2222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 199.5702 47.7622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 199.5702 56.0172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 199.5702 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 199.5702 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 199.5702 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 199.5702 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c975f67-529a-4fe4-9ba5-15d0faa48d67")
-		)
-		(pin "2"
-			(uuid "69b46fe0-2165-4615-a476-f65e2cdb7736")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 93.98 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70470602-fc11-4d4c-a4ee-8d9f2f62eff5")
-		(property "Reference" "SW6"
-			(at 93.98 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 93.98 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 93.98 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 93.98 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8d313f96-0bbd-49f8-97db-c2ba9171071e")
-		)
-		(pin "1"
-			(uuid "c3a6f7a2-2524-4c48-919b-0134b7ab1a62")
-		)
-		(pin "4"
-			(uuid "8515eb6d-82f5-4ebf-982b-5ae813abf351")
-		)
-		(pin "2"
-			(uuid "0f0f62f5-0820-46be-b855-bbbcbb947a64")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 111.76 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77ace6dc-2368-412e-808b-a93417260112")
-		(property "Reference" "SW2"
-			(at 111.76 98.806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 111.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 111.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 111.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 111.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ca11db7c-e220-4b4c-be12-b83027f15346")
-		)
-		(pin "1"
-			(uuid "8232c615-ad8f-478b-b7de-ebb6ffbee216")
-		)
-		(pin "4"
-			(uuid "2d9f39f5-8cd8-4630-9236-487dacd652a8")
-		)
-		(pin "2"
-			(uuid "61573b31-66e6-4d03-8728-9c4ef9c7d52f")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5096,7 +5374,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC595")
-		(at 40.64 105.41 0)
+		(at 241.3 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5105,7 +5383,7 @@
 		(fields_autoplaced yes)
 		(uuid "793b9763-8047-42e4-9414-3c506179375e")
 		(property "Reference" "U3"
-			(at 42.7833 87.63 0)
+			(at 243.4433 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,7 +5392,7 @@
 			)
 		)
 		(property "Value" "74HC595"
-			(at 42.7833 90.17 0)
+			(at 243.4433 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5401,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 40.64 105.41 0)
+			(at 241.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +5410,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
-			(at 40.64 105.41 0)
+			(at 241.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +5419,7 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-			(at 40.64 105.41 0)
+			(at 241.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,16 +5486,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5G")
-		(at 110.49 167.64 0)
+		(at 139.7 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f6cd5f3-903c-402d-88a2-12b5a387d183")
-		(property "Reference" "SW32"
-			(at 110.49 162.56 0)
+		(uuid "79c3ea5e-843e-4886-8c8a-008e321d6304")
+		(property "Reference" "SW4"
+			(at 139.7 201.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +5502,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G"
-			(at 110.49 162.56 0)
+			(at 139.7 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5511,7 @@
 			)
 		)
 		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 110.49 162.56 0)
+			(at 139.7 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5520,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 110.49 162.56 0)
+			(at 139.7 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +5529,7 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 110.49 167.64 0)
+			(at 139.7 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,46 +5538,38 @@
 			)
 		)
 		(pin "3"
-			(uuid "ad501167-f84a-48d6-962c-87eb313bf5a3")
+			(uuid "6a1598c3-9b40-41df-bf80-0c85ed777b63")
 		)
 		(pin "1"
-			(uuid "e5fe4803-03eb-40c3-b182-3958276587fd")
+			(uuid "853b75f2-b64a-4b7b-978e-262f82d16f02")
 		)
 		(pin "4"
-			(uuid "abab6cf1-8e4a-44c1-99b2-8ea3699ea5f1")
+			(uuid "37820592-0244-4ae7-9da8-b950c0548c68")
 		)
 		(pin "2"
-			(uuid "ade360ad-2ad4-4225-b3fb-55a8bef6313e")
+			(uuid "18071716-f69c-4885-8ccb-2d60f4605bde")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW32")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 106.68 137.16 0)
+		(lib_id "power:+5V")
+		(at 289.56 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82282871-3586-4a0f-a7e1-2de7ce228c4e")
-		(property "Reference" "SW7"
-			(at 106.68 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 106.68 132.08 0)
+		(uuid "8252be6e-3df9-498e-a8c3-42b0f8d91763")
+		(property "Reference" "#PWR06"
+			(at 293.37 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,8 +5577,17 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 106.68 132.08 0)
+		(property "Value" "+5V"
+			(at 285.75 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,8 +5595,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 106.68 132.08 0)
+		(property "Datasheet" ""
+			(at 289.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,31 +5604,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 106.68 137.16 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 289.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "b6110813-ecd3-413d-ae90-d28d4d7cc965")
 		)
 		(pin "1"
-			(uuid "bf4517fd-e73d-4526-b1c8-55db9bc464cd")
-		)
-		(pin "4"
-			(uuid "8f4f2232-fa2e-4374-9bfe-733744866b50")
-		)
-		(pin "2"
-			(uuid "546b1ca9-5fff-4bff-8e0f-3a87a15c1a74")
+			(uuid "4d63a1f9-7a2f-41be-9896-27eb3ef97b97")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW7")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5358,16 +5627,15 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WS")
-		(at 186.8702 51.5722 0)
+		(at 148.59 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8241189f-7767-4138-94b2-c097cb03c94a")
-		(property "Reference" "D22"
-			(at 186.8702 45.2222 0)
+		(uuid "878d73ef-b643-4430-9100-d59c4980db50")
+		(property "Reference" "D3"
+			(at 148.59 196.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,15 +5643,16 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 186.8702 47.7622 0)
+			(at 148.59 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 186.8702 56.0172 0)
+			(at 148.59 203.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5661,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 186.8702 51.5722 0)
+			(at 148.59 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5670,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 186.8702 51.5722 0)
+			(at 148.59 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5679,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 186.8702 51.5722 0)
+			(at 148.59 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5688,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 186.8702 51.5722 0)
+			(at 148.59 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,15 +5697,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "49044eae-1546-4445-9482-fb8a4903eaf4")
+			(uuid "57fda5ba-74ee-4f71-a331-871ac094f30c")
 		)
 		(pin "2"
-			(uuid "4ad68607-a8ca-473c-9d80-0b29a665dc9e")
+			(uuid "ed558755-9779-4359-9eb8-382d6eeb6e31")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D22")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5444,254 +5713,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WS")
-		(at 218.2257 23.5463 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83248964-11c7-4102-bf42-adde28781d7e")
-		(property "Reference" "D36"
-			(at 218.2257 17.1963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 218.2257 19.7363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 218.2257 27.9913 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 218.2257 23.5463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 218.2257 23.5463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 218.2257 23.5463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 218.2257 23.5463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a81177e-d2d1-425f-b68c-9183f1a9000d")
-		)
-		(pin "2"
-			(uuid "418dc7de-b744-4913-9bbe-6e771fea732c")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 142.1975 136.5679 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e72ca44-20f3-44fb-bf16-42796b899c8e")
-		(property "Reference" "SW10"
-			(at 142.1975 131.4879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 142.1975 131.4879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 142.1975 131.4879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 142.1975 131.4879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 142.1975 136.5679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d93f0d07-826d-4c08-a41d-a7c0f5216f7e")
-		)
-		(pin "1"
-			(uuid "e107d9bf-cc53-423c-a3d9-707950bf112d")
-		)
-		(pin "4"
-			(uuid "3b3ddd0c-fa33-4165-a395-ac8af054d3e7")
-		)
-		(pin "2"
-			(uuid "b5f9ade4-1313-42c5-85b1-7c1e52275324")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 164.0443 36.1437 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ebe6ad6-5beb-4c5b-b2d7-730a52dfc309")
-		(property "Reference" "D13"
-			(at 164.0443 29.7937 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 164.0443 32.3337 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 164.0443 40.5887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 164.0443 36.1437 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 164.0443 36.1437 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 164.0443 36.1437 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 164.0443 36.1437 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "017279eb-171d-413e-afc1-9682671cf897")
-		)
-		(pin "2"
-			(uuid "93559a3b-140b-49d9-94fc-aaba5694d6c4")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 120.65 96.52 0)
+		(at 148.59 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5699,7 +5721,7 @@
 		(dnp no)
 		(uuid "940f53f6-a653-462b-aafe-cadb4eb89a0e")
 		(property "Reference" "D1"
-			(at 120.65 93.472 0)
+			(at 148.59 183.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +5729,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 120.65 92.71 0)
+			(at 148.59 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,7 +5738,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 120.65 100.965 0)
+			(at 148.59 191.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +5747,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 120.65 96.52 0)
+			(at 148.59 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,7 +5756,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 120.65 96.52 0)
+			(at 148.59 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +5765,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 120.65 96.52 0)
+			(at 148.59 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +5774,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 96.52 0)
+			(at 148.59 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,33 +5798,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 206.7957 46.4063 0)
+		(lib_id "power:GND")
+		(at 289.56 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "97f068bf-8467-4526-9db5-374b8b7eef25")
-		(property "Reference" "D31"
-			(at 206.7957 40.0563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 206.7957 42.5963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 206.7957 50.8513 0)
+		(uuid "9524e4dc-c9a1-4fd6-aa71-070763c581db")
+		(property "Reference" "#PWR02"
+			(at 283.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,8 +5816,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 206.7957 46.4063 0)
+		(property "Value" "GND"
+			(at 285.75 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,8 +5834,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 206.7957 46.4063 0)
+		(property "Datasheet" ""
+			(at 289.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,17 +5843,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 206.7957 46.4063 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 206.7957 46.4063 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 289.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,15 +5853,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "a2123129-5dbf-4957-907a-72ef16fbe3c1")
-		)
-		(pin "2"
-			(uuid "9c487840-f2b6-42f9-8866-9c3d6215b589")
+			(uuid "90559e80-3f1d-47c1-976d-8d12ebafdee1")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D31")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 314.96 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a10a4ca0-13a1-4ad0-ada7-0c1a1c0a9597")
+		(property "Reference" "#PWR09"
+			(at 311.15 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 318.77 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 314.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "441095fa-2374-4e5f-b760-6c2eb47e6e42")
+		)
+		(instances
+			(project "RPNCalcProject"
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5863,16 +5933,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5G")
-		(at 133.0328 161.4187 0)
+		(at 139.7 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "994e9175-43e4-4b33-84df-075262877bf1")
-		(property "Reference" "SW29"
-			(at 133.0328 156.3387 0)
+		(uuid "aa845a24-b382-4175-b6cb-cb201f6422cd")
+		(property "Reference" "SW6"
+			(at 139.7 214.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,7 +5949,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G"
-			(at 133.0328 156.3387 0)
+			(at 139.7 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +5958,7 @@
 			)
 		)
 		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 133.0328 156.3387 0)
+			(at 139.7 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +5967,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 133.0328 156.3387 0)
+			(at 139.7 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +5976,7 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 133.0328 161.4187 0)
+			(at 139.7 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,504 +5985,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "33628ca5-fa87-4004-8654-71e257050c8a")
+			(uuid "5319e72d-0411-4e12-9660-4177cbcedbc1")
 		)
 		(pin "1"
-			(uuid "67edc26b-cca4-4531-a16f-ff8c7fee50d1")
+			(uuid "08891360-cdfc-4fe3-b778-d1f87eb6f702")
 		)
 		(pin "4"
-			(uuid "e68cb8bf-de85-483f-b0c2-043594736bf0")
+			(uuid "c7754efc-ae06-42f0-bfcc-02eab7284dcb")
 		)
 		(pin "2"
-			(uuid "b671459b-ca39-4cdf-af51-9bb993768c1d")
+			(uuid "f0bd21e6-b1ab-491c-94ee-b483e81a47ea")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 97.79 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa38fc92-b93d-40c9-97a7-d4a33d2248d1")
-		(property "Reference" "SW31"
-			(at 97.79 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 97.79 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 97.79 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 97.79 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 97.79 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1b8222a2-5a3f-4229-bc2a-8b475d9031dd")
-		)
-		(pin "1"
-			(uuid "df07364d-14c9-43c3-bce2-43883988dfc8")
-		)
-		(pin "4"
-			(uuid "8921239c-3330-440f-8874-c23859ab689c")
-		)
-		(pin "2"
-			(uuid "ee93d945-ca2c-4fc6-b7f6-97132d7d4859")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 143.4675 128.9479 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa711881-7e87-4985-8efd-49997b0dfe5d")
-		(property "Reference" "SW5"
-			(at 143.4675 123.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 143.4675 123.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 143.4675 123.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 143.4675 123.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 143.4675 128.9479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2416f59f-dfab-4a29-9814-02eabd544c5f")
-		)
-		(pin "1"
-			(uuid "fa7bb6f9-deba-46bf-8f80-1d4e0da8b1cc")
-		)
-		(pin "4"
-			(uuid "a4fb3918-940a-4607-bf8e-575a49aa3e17")
-		)
-		(pin "2"
-			(uuid "6520173f-4ee4-4bc3-a781-9524f780811a")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 175.4402 51.5722 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab833f87-a290-41ed-87d4-d232db77a3d2")
-		(property "Reference" "D17"
-			(at 175.4402 45.2222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 175.4402 47.7622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 175.4402 56.0172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 175.4402 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 175.4402 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.4402 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.4402 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fdb0338-4c32-4fa3-9aea-0446d3edbfb7")
-		)
-		(pin "2"
-			(uuid "156c1632-0ce7-4ed5-8848-40d274bde280")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 120.65 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "acba7580-29ee-4e82-8d96-696156c9f0e6")
-		(property "Reference" "D2"
-			(at 120.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 120.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 120.65 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 120.65 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 120.65 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 120.65 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5d31f89-aa91-4866-97e9-9751fecd8a37")
-		)
-		(pin "2"
-			(uuid "e26429ae-c5bf-4891-b59a-fee7cb6a9ede")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 146.0075 167.0479 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aea3a591-4645-4f1e-b89a-4cd488ede7e1")
-		(property "Reference" "SW35"
-			(at 146.0075 161.9679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 146.0075 161.9679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 146.0075 161.9679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 146.0075 161.9679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 146.0075 167.0479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "759e4e52-b8e2-45ff-9b83-11296f8826a3")
-		)
-		(pin "1"
-			(uuid "20c50e6d-a2de-42b6-b482-4943cc96a130")
-		)
-		(pin "4"
-			(uuid "a2e591b7-fbd7-4b20-8173-5af6fb062c23")
-		)
-		(pin "2"
-			(uuid "848431e6-9568-4ce0-884f-278ea8dcc17a")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 200.1108 67.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1ce2874-3962-4360-a43e-09a69cf6038c")
-		(property "Reference" "D30"
-			(at 200.1108 60.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 200.1108 63.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 200.1108 71.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 200.1108 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 200.1108 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 200.1108 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 200.1108 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1b80da0-9164-40a2-be0f-0ea84f696bc6")
-		)
-		(pin "2"
-			(uuid "059a5a4e-1796-467a-a3af-9660c8d80def")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D30")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -6421,7 +6007,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Texas_MSP430:MSP430G2553IPW20")
-		(at 73.66 45.72 0)
+		(at 201.93 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6430,7 +6016,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1fb3f98-3a27-4d4d-8df7-7c31deec7e46")
 		(property "Reference" "U1"
-			(at 75.8033 24.13 0)
+			(at 204.0733 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6025,7 @@
 			)
 		)
 		(property "Value" "MSP430G2553IPW20"
-			(at 75.8033 26.67 0)
+			(at 204.0733 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6034,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
-			(at 36.83 59.69 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6044,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/msp430g2553.pdf"
-			(at 72.39 45.72 0)
+			(at 200.66 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +6053,7 @@
 			)
 		)
 		(property "Description" "16kB Flash, 512B RAM, TSSOP-20"
-			(at 73.66 45.72 0)
+			(at 201.93 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,16 +6132,15 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WS")
-		(at 175.4743 36.1437 0)
+		(at 148.59 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3c76134-e24d-4217-94e4-4a6159d2baec")
-		(property "Reference" "D18"
-			(at 175.4743 29.7937 0)
+		(uuid "b70df153-8901-4c57-8e3d-21b1b0bc33a4")
+		(property "Reference" "D4"
+			(at 148.59 202.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,15 +6148,16 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 175.4743 32.3337 0)
+			(at 148.59 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 175.4743 40.5887 0)
+			(at 148.59 210.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +6166,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 175.4743 36.1437 0)
+			(at 148.59 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,7 +6175,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 175.4743 36.1437 0)
+			(at 148.59 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +6184,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 175.4743 36.1437 0)
+			(at 148.59 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +6193,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 175.4743 36.1437 0)
+			(at 148.59 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,48 +6202,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e07072f-a159-4259-9c3e-59ce2153b2a3")
+			(uuid "198a9980-ffb3-43f4-972b-d8869c7e994b")
 		)
 		(pin "2"
-			(uuid "975ca4ab-e649-4d8a-9fa3-6d4ddd19cc24")
+			(uuid "d600d8c3-434d-4883-9422-edf9753d5fea")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D18")
+					(reference "D4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 207.01 31.75 0)
+		(lib_id "power:+5V")
+		(at 231.14 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9fd9dd2-5ba5-466a-a80f-57edb30af4e2")
-		(property "Reference" "D34"
-			(at 207.01 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 207.01 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 207.01 36.195 0)
+		(uuid "ba428500-0639-4610-a476-a91e038a84e0")
+		(property "Reference" "#PWR015"
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,219 +6235,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 207.01 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 207.01 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 207.01 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 207.01 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c3748c4-beec-4d88-8005-a6592bbec0b0")
-		)
-		(pin "2"
-			(uuid "984bc9c5-e4b8-42d5-a28f-b6c46e56e9d6")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 110.49 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba40a6bb-7da7-4db2-ade1-2c109b591b5a")
-		(property "Reference" "SW27"
-			(at 110.49 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 110.49 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 110.49 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 110.49 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 110.49 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c5145c9c-cc24-4f96-822f-b211bf9de3c8")
-		)
-		(pin "1"
-			(uuid "06378f2e-23e5-4279-b44b-e86a31eba8e1")
-		)
-		(pin "4"
-			(uuid "a48fe23e-002e-4c01-a94e-c5c8dbe268ec")
-		)
-		(pin "2"
-			(uuid "a06efca1-7b2c-4db2-9273-e0ae27369add")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 120.2298 149.4481 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcf93687-6c00-43b3-8061-5043283f6aed")
-		(property "Reference" "SW18"
-			(at 120.2298 144.3681 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 120.2298 144.3681 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 120.2298 144.3681 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 120.2298 144.3681 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 120.2298 149.4481 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bfe9f959-bc65-4523-b35d-35c4f0d607a5")
-		)
-		(pin "1"
-			(uuid "db8e5d72-3c9e-42d2-bb8a-fd4606d22286")
-		)
-		(pin "4"
-			(uuid "06580db2-ad8b-4d80-975d-7361472fffe8")
-		)
-		(pin "2"
-			(uuid "abd2f3dd-39fc-4209-b02f-2119ffb76dc3")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf936069-afad-4540-a56a-708908fa11c3")
-		(property "Reference" "R2"
-			(at 53.34 167.6399 0)
+		(property "Value" "+5V"
+			(at 227.33 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,8 +6244,132 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 53.34 170.1799 0)
+		(property "Footprint" ""
+			(at 231.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 231.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aa6e509-4bc5-4aaf-9b45-1146b71135c0")
+		)
+		(instances
+			(project "RPNCalcProject"
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf386c31-1859-4e09-bbbb-927d41ffb6fe")
+		(property "Reference" "#PWR01"
+			(at 283.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 285.75 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 289.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56b56d5f-d357-47ec-b612-e76f6c609890")
+		)
+		(instances
+			(project ""
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 255.27 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf936069-afad-4540-a56a-708908fa11c3")
+		(property "Reference" "R2"
+			(at 257.048 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 257.048 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +6378,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.022 168.91 90)
+			(at 253.492 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +6387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 168.91 0)
+			(at 255.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +6396,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 50.8 168.91 0)
+			(at 255.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,33 +6420,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 186.9043 36.1437 0)
+		(lib_id "power:GND")
+		(at 201.93 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c1e18e17-80bd-4d28-b26d-4ccf408bd8e1")
-		(property "Reference" "D23"
-			(at 186.9043 29.7937 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 186.9043 32.3337 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 186.9043 40.5887 0)
+		(uuid "c0ccbf7d-b3dc-4925-a031-2bb2376ea5dd")
+		(property "Reference" "#PWR08"
+			(at 201.93 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,8 +6438,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 186.9043 36.1437 0)
+		(property "Value" "GND"
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,8 +6455,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 186.9043 36.1437 0)
+		(property "Datasheet" ""
+			(at 201.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,17 +6464,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 186.9043 36.1437 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 186.9043 36.1437 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,48 +6474,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "71d7c795-f3df-4eb4-8f79-7e6b5603e8fa")
-		)
-		(pin "2"
-			(uuid "c4bf6102-c041-4da3-bf88-85b3a31f6dc2")
+			(uuid "bd7ecfa1-0526-4f49-9bfa-e5570a7ead56")
 		)
 		(instances
-			(project "RPNCalcProject"
+			(project ""
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D23")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 140.9359 52.2585 0)
+		(lib_id "power:+5V")
+		(at 304.8 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2691beb-aa69-4de8-b354-1aa5a3aca958")
-		(property "Reference" "D3"
-			(at 140.9359 45.9085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 140.9359 48.4485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 140.9359 56.7035 0)
+		(uuid "c4b6009d-5aba-4d72-80b9-ee1fc961b95d")
+		(property "Reference" "#PWR011"
+			(at 304.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,8 +6503,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 140.9359 52.2585 0)
+		(property "Value" "+5V"
+			(at 305.562 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,8 +6521,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 140.9359 52.2585 0)
+		(property "Datasheet" ""
+			(at 304.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,17 +6530,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 140.9359 52.2585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 140.9359 52.2585 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 304.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,498 +6540,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "edfa684c-979f-4a5c-80e2-7621469902db")
-		)
-		(pin "2"
-			(uuid "555625af-f610-4a34-a65f-ebd4bfa3fc6a")
+			(uuid "5f8e8062-09fa-4181-95c9-90d8aaffecb9")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 141.4765 67.9363 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c463cdab-84a1-452a-ba14-779e9d7dd2a9")
-		(property "Reference" "D5"
-			(at 141.4765 61.5863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 141.4765 64.1263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 141.4765 72.3813 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 141.4765 67.9363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 141.4765 67.9363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 141.4765 67.9363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 141.4765 67.9363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e821bdad-b71b-4c33-ba60-6dddcf2efea4")
-		)
-		(pin "2"
-			(uuid "f6fb8dfc-b4b8-428a-91be-18f57433924c")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 199.39 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c812f6cc-6bb9-4799-83fc-203398e60304")
-		(property "Reference" "D26"
-			(at 199.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 199.39 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 199.39 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 199.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 199.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 199.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 199.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbb6a242-23b1-4ffc-a71a-661150acfcf1")
-		)
-		(pin "2"
-			(uuid "0497c683-a9e3-4fb3-a4c4-fd71d183a706")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 130.4928 129.6687 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8ef39bb-619c-42ac-b34c-43a5824a6ae6")
-		(property "Reference" "SW4"
-			(at 130.4928 124.5887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 130.4928 124.5887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 130.4928 124.5887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 130.4928 124.5887 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 130.4928 129.6687 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "45c562bb-0e7b-4cd6-9854-7dd55330d680")
-		)
-		(pin "1"
-			(uuid "31ba4d21-7c19-4eae-aeb5-5dc2164dc880")
-		)
-		(pin "4"
-			(uuid "e04fef33-1eec-47e8-9635-cc2abf8ee38a")
-		)
-		(pin "2"
-			(uuid "aa681308-522b-42af-a443-9b30d9a516da")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 92.71 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c90d7236-4e89-424d-958d-37b5c5b816d8")
-		(property "Reference" "SW11"
-			(at 92.71 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 92.71 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 92.71 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 92.71 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 92.71 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6db23ea0-2a13-4442-9469-0fa70be8f003")
-		)
-		(pin "1"
-			(uuid "6c762ac5-e7ef-4281-8719-6386832f2124")
-		)
-		(pin "4"
-			(uuid "b5952cc4-3196-45ed-8069-d96ac589ab7b")
-		)
-		(pin "2"
-			(uuid "cfd167ec-f8aa-4125-a893-5228baf53f0d")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 118.9598 129.1281 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf454286-fbc3-4ae6-8cd4-c02f1fcfe7be")
-		(property "Reference" "SW3"
-			(at 118.9598 124.0481 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 118.9598 124.0481 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 118.9598 124.0481 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 118.9598 124.0481 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 118.9598 129.1281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0d9fbfda-6403-4e1e-b911-f2e0770e934c")
-		)
-		(pin "1"
-			(uuid "b8d7e675-6a12-43f5-90c1-9254f6548f42")
-		)
-		(pin "4"
-			(uuid "7dbe849a-37de-4b8d-8ea9-e776a2afabd5")
-		)
-		(pin "2"
-			(uuid "5816326e-5290-48fb-b33c-1a1972d2f711")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 207.01 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d109edce-ee19-4675-92ed-031ae0e92ef6")
-		(property "Reference" "D33"
-			(at 207.01 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 207.01 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 207.01 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 207.01 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 207.01 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 207.01 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 207.01 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4606365f-c35b-4f7c-9182-0f933901cde0")
-		)
-		(pin "2"
-			(uuid "9daa0ea6-16b2-4c44-b72f-a1f3fe842027")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D33")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7593,7 +6553,7 @@
 	)
 	(symbol
 		(lib_id "Interface_Expansion:MCP23017_SO")
-		(at 245.11 50.8 0)
+		(at 307.34 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7602,7 +6562,7 @@
 		(fields_autoplaced yes)
 		(uuid "d210685d-ab51-45f3-9f92-efc045cea2ed")
 		(property "Reference" "U2"
-			(at 247.2533 22.86 0)
+			(at 309.4833 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +6571,7 @@
 			)
 		)
 		(property "Value" "MCP23017_SO"
-			(at 247.2533 25.4 0)
+			(at 309.4833 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,7 +6580,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
-			(at 250.19 76.2 0)
+			(at 312.42 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7630,7 +6590,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
-			(at 250.19 78.74 0)
+			(at 312.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,7 +6600,7 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017),  SOIC-28"
-			(at 245.11 50.8 0)
+			(at 307.34 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,17 +6702,148 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 120.2298 155.7981 0)
+		(lib_id "power:GND")
+		(at 247.65 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d396958f-1f6a-4662-b5a4-65f65e790940")
-		(property "Reference" "SW23"
-			(at 120.2298 150.7181 0)
+		(uuid "d21ca162-65b3-4834-be89-07f471e313b1")
+		(property "Reference" "#PWR017"
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dade103-d620-4c10-b899-2888857c4434")
+		)
+		(instances
+			(project "RPNCalcProject"
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 201.93 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2d9aa0a-120e-4dc3-80f5-7324625900a4")
+		(property "Reference" "#PWR07"
+			(at 201.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 201.93 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 201.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09766c41-f521-4927-b64b-6b7fadf56c9a")
+		)
+		(instances
+			(project ""
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 139.7 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5a0ac7b-d4d0-43cf-bbe6-df3dba4acb45")
+		(property "Reference" "SW2"
+			(at 139.7 188.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,7 +6851,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G"
-			(at 120.2298 150.7181 0)
+			(at 139.7 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +6860,7 @@
 			)
 		)
 		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 120.2298 150.7181 0)
+			(at 139.7 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +6869,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 120.2298 150.7181 0)
+			(at 139.7 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,7 +6878,7 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 120.2298 155.7981 0)
+			(at 139.7 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7796,21 +6887,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "01596b32-2d9c-474c-ad1e-2f5bcae5db2d")
+			(uuid "1951ec5f-81ef-4cea-9e60-493be33de5a9")
 		)
 		(pin "1"
-			(uuid "4fd77e15-e262-4c72-8e8c-af756266591b")
+			(uuid "73831b04-a531-4a44-9c6a-c601d81cff51")
 		)
 		(pin "4"
-			(uuid "f090c9a4-7566-4002-bd56-524706cf5316")
+			(uuid "e527c6b9-66aa-498b-b892-b798fffe9821")
 		)
 		(pin "2"
-			(uuid "258f029b-60b4-474f-84ec-0fead16c612d")
+			(uuid "dfff7b18-dde6-4d94-a6e5-f8afce6b10a7")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW23")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7818,16 +6909,15 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WS")
-		(at 152.4 58.42 0)
+		(at 148.59 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db5159ad-66bd-4f6c-b88c-7046ffbfc09c")
-		(property "Reference" "D6"
-			(at 152.4 52.07 0)
+		(uuid "e5da38e7-b765-415a-9a15-b4512ad6c131")
+		(property "Reference" "D2"
+			(at 148.59 189.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,15 +6925,16 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 152.4 54.61 0)
+			(at 148.59 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 152.4 62.865 0)
+			(at 148.59 197.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +6943,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 152.4 58.42 0)
+			(at 148.59 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +6952,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 152.4 58.42 0)
+			(at 148.59 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7870,7 +6961,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 152.4 58.42 0)
+			(at 148.59 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7879,7 +6970,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 58.42 0)
+			(at 148.59 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,10 +6979,96 @@
 			)
 		)
 		(pin "1"
-			(uuid "f81a6f21-f194-4446-b09e-b0b82bcbdef3")
+			(uuid "de22f72c-2100-4a63-8cd6-9792e6f59d8f")
 		)
 		(pin "2"
-			(uuid "a56ca89a-14d5-46f2-9677-1bc9c2f0d6a4")
+			(uuid "024c70cc-f511-4fba-bbfd-d6c220c4a843")
+		)
+		(instances
+			(project "RPNCalcProject"
+				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 148.59 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb215736-47c5-4e38-a45b-f79318d445fe")
+		(property "Reference" "D6"
+			(at 148.59 215.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 148.59 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
+			(at 148.59 222.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 148.59 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 148.59 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 148.59 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 148.59 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cefe6750-aaf9-4be2-9ff9-72cf44b1fa87")
+		)
+		(pin "2"
+			(uuid "568182da-beb1-4cfe-b64e-73143ec952c5")
 		)
 		(instances
 			(project "RPNCalcProject"
@@ -7903,92 +7080,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 116.4198 143.0981 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcc9b65b-c578-4876-b552-e256721a6f58")
-		(property "Reference" "SW13"
-			(at 116.4198 138.0181 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 116.4198 138.0181 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 116.4198 138.0181 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 116.4198 138.0181 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 116.4198 143.0981 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ff55a358-98a4-4670-b22d-5d09d1964038")
-		)
-		(pin "1"
-			(uuid "2bc8e512-7120-4dd5-a101-1820ca29cef9")
-		)
-		(pin "4"
-			(uuid "789c5400-8f26-47a1-bc16-bc07a22892a4")
-		)
-		(pin "2"
-			(uuid "d129db08-1e2b-40fd-97ab-1520c7a84426")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148WS")
-		(at 152.6143 36.1437 0)
+		(at 148.59 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e82e3261-1036-454e-9918-76d81bda9b9c")
-		(property "Reference" "D8"
-			(at 152.6143 29.7937 0)
+		(uuid "f243eb33-8605-4171-a88b-27530103b2a1")
+		(property "Reference" "D5"
+			(at 148.59 209.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,15 +7097,16 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 152.6143 32.3337 0)
+			(at 148.59 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 152.6143 40.5887 0)
+			(at 148.59 216.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,7 +7115,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 152.6143 36.1437 0)
+			(at 148.59 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8022,7 +7124,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 152.6143 36.1437 0)
+			(at 148.59 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8031,7 +7133,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 152.6143 36.1437 0)
+			(at 148.59 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,7 +7142,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 152.6143 36.1437 0)
+			(at 148.59 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,745 +7151,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c0c7b04-f575-40e4-9b97-383ee974f76c")
+			(uuid "14088e05-8040-48bf-b058-9dc5c40a032b")
 		)
 		(pin "2"
-			(uuid "7a433a94-e983-465e-9e5d-63b452ba2559")
+			(uuid "0a9e19d6-eab5-428e-8944-0a9630cb7acc")
 		)
 		(instances
 			(project "RPNCalcProject"
 				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 207.5165 55.2363 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edd219d7-6b85-4a40-9567-9598d5a167a9")
-		(property "Reference" "D35"
-			(at 207.5165 48.8863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 207.5165 51.4263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 207.5165 59.6813 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 207.5165 55.2363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 207.5165 55.2363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 207.5165 55.2363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 207.5165 55.2363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ed62a26-5294-447f-9eb4-13cb948371e0")
-		)
-		(pin "2"
-			(uuid "85b8b838-0773-4681-97f8-050a5ec4f452")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 140.9275 142.9179 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ede194e0-776a-4571-b5fb-5917c51e1925")
-		(property "Reference" "SW15"
-			(at 140.9275 137.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 140.9275 137.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 140.9275 137.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 140.9275 137.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 140.9275 142.9179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bacbacb8-1e22-4e1e-abe7-3c61577f6e5c")
-		)
-		(pin "1"
-			(uuid "13ae4b09-aa63-42e6-b19b-359f263226d9")
-		)
-		(pin "4"
-			(uuid "8a2924f3-17d1-4cbb-8bf6-98c2dbaaa29a")
-		)
-		(pin "2"
-			(uuid "bd29f580-0ccd-4976-891d-3d3bc0db9a45")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 153.1208 67.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4d6dbdc-f44b-410d-bbc6-f50844fc2d5e")
-		(property "Reference" "D10"
-			(at 153.1208 60.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 153.1208 63.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 153.1208 71.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 153.1208 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 153.1208 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 153.1208 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 153.1208 67.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "561d5161-7800-4f0d-a5a6-d11842c9e02f")
-		)
-		(pin "2"
-			(uuid "068c2267-24c2-4623-93a9-89e76bd9544f")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 117.6898 136.7481 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5524577-1d91-41dd-9a6a-b666431d4f5d")
-		(property "Reference" "SW8"
-			(at 117.6898 131.6681 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 117.6898 131.6681 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 117.6898 131.6681 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 117.6898 131.6681 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 117.6898 136.7481 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "be540f5c-8417-4194-b601-a06bd5b095cc")
-		)
-		(pin "1"
-			(uuid "1543682a-7c38-486f-9d19-fc2b48e13300")
-		)
-		(pin "4"
-			(uuid "71a52988-a699-486f-9bde-5e417fd9a8d6")
-		)
-		(pin "2"
-			(uuid "28db9c3d-ec30-4153-9743-16f364f69ee6")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 121.4998 167.2281 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5dcaa1f-f93e-45d3-9821-90d5b099b206")
-		(property "Reference" "SW33"
-			(at 121.4998 162.1481 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 121.4998 162.1481 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 121.4998 162.1481 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 121.4998 162.1481 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 121.4998 167.2281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "59091189-a99d-426c-9325-d5261f219844")
-		)
-		(pin "1"
-			(uuid "a4c168b7-5ace-4975-930b-1bb6fc1dd8c5")
-		)
-		(pin "4"
-			(uuid "7873e4aa-f1a3-4448-9fb4-3674a479cf21")
-		)
-		(pin "2"
-			(uuid "50818bfd-7e7c-4fac-90ba-d325132fde66")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 186.9043 43.7637 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7718b7d-3278-4d09-9603-379385202d9a")
-		(property "Reference" "D24"
-			(at 186.9043 37.4137 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 186.9043 39.9537 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 186.9043 48.2087 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 186.9043 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 186.9043 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 186.9043 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 186.9043 43.7637 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82907896-22b6-48e5-ae24-39d437f1bbfb")
-		)
-		(pin "2"
-			(uuid "249010d0-c5fb-47fc-bca2-fa75037b4f57")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 152.5802 51.5722 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa16476e-de1e-4130-9d7d-28f11c0e07ed")
-		(property "Reference" "D7"
-			(at 152.5802 45.2222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 152.5802 47.7622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 152.5802 56.0172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 152.5802 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 152.5802 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.5802 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.5802 51.5722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20915607-f907-49d7-995c-c362655c2cc7")
-		)
-		(pin "2"
-			(uuid "d9fe29bf-0841-477c-9c61-5c2d13e52d4f")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 144.7375 149.2679 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fef54d87-6fef-4adc-9425-fda1f2df6052")
-		(property "Reference" "SW20"
-			(at 144.7375 144.1879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 144.7375 144.1879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Momentary Tactile Buttons:Tactile momentary button"
-			(at 144.7375 144.1879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 144.7375 144.1879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 144.7375 149.2679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0cbbb951-a390-42fd-93de-276f3e3e46f1")
-		)
-		(pin "1"
-			(uuid "3099c623-a87c-42d6-a967-e26d4032c92f")
-		)
-		(pin "4"
-			(uuid "2ed0ad39-722c-4bc8-8feb-3b2dccb473b0")
-		)
-		(pin "2"
-			(uuid "55df3542-d139-4932-a78f-101e033c7a3f")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "SW20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 140.7557 59.1063 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff0980a8-d05b-44f0-a481-2f4b5fecb2d3")
-		(property "Reference" "D4"
-			(at 140.7557 52.7563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 140.7557 55.2963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp"
-			(at 140.7557 63.5513 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 140.7557 59.1063 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 140.7557 59.1063 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 140.7557 59.1063 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 140.7557 59.1063 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3cc3549-3cd4-4530-bfdb-70d9e80a1316")
-		)
-		(pin "2"
-			(uuid "29e47889-953a-4904-8ed8-f22a76065a97")
-		)
-		(instances
-			(project "RPNCalcProject"
-				(path "/0021c1e3-eb77-4e33-94aa-717ee3dc739d"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
