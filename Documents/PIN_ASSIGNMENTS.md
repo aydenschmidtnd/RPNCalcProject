@@ -10,7 +10,7 @@
 ### Shift Register
 1) **SER** = 1.2 (UCA0SIMO)
 2) **OE** = pulldown
-3) **RCLK** = 2.4 (UCA0CLK)
+3) **RCLK** = 2.4
 4) **SRCLK** = 1.4 (UCA0CLK)
 5) **SRCLR** = pullup
 
