@@ -1,0 +1,12 @@
+#ifndef _SHIFT_REGISTER_DRIVER_H_
+#define _SHIFT_REGISTER_DRIVER_H_
+
+/*PORT 1*/
+#define SHIFT_REGISTER_SER   BIT2
+#define SHIFT_REGISTER_SRCLK BIT4
+/*PORT 2*/
+#define SHIFT_REGISTER_RCLK  BIT4
+
+void InitSpiPeripherals(void);
+
+#endif /* _SHIFT_REGISTER_DRIVER_H_ */
