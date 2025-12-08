@@ -118,7 +118,10 @@ void WriteLCDString(const LCD_LINE lcdLineNumber, uint8_t lcdOffset, const char 
 void InitLcdPeripherals(void)
 {
     //Sets up LCD pins for Output
-    P2DIR |= LCD_ENABLE + LCD_RW + LCD_RS + SHIFT_REGISTER_RCLK;
+    P2DIR |= LCD_ENABLE + 
+             LCD_RW + 
+             LCD_RS + 
+             SHIFT_REGISTER_RCLK;
     //Sets up LCD pins for GPIO
     P2SEL2 = 0;
     P2SEL  = 0;
