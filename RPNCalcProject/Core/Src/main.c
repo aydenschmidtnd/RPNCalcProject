@@ -4,24 +4,23 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-#include "SPI.h"
-#include "LCD.h"
-#include "I2C.h"
-#include "GPIODriver.h"
+#include "ShiftRegisterDriver.h"
+#include "IoExpanderDriver.h"
+#include "LcdDriver.h"
 #include "Timer.h"
-#include "main.h"
+#include "Main.h"
 
-volatile extern uint64_t timer_count;
+static void InitClockTo16MHz(void);
 
-int main(void)
+void main(void)
 {
     WDTCTL = WDTPW + WDTHOLD; //Stop Watchdog Timer
     
     InitClockTo16MHz();
     /*Init Peripherals*/
-    InitGPIO();
-    InitSPI();
-    InitI2C();
+    InitLcdPeripherals();
+    Init74HC595Peripherals();
+    InitMCP23017Peripherals();
     /*Init Devices*/
     InitMCP23017();
     InitLCD();
@@ -69,7 +68,7 @@ int main(void)
         {
             flagOne = false;
             flagTwo = false;
-        }
+        } 
         if(index == 16){index = 0;}
         WriteMCP23017(0x12, 0x01);
         __delay_cycles(100000);
@@ -111,14 +110,13 @@ int main(void)
     }
 }
 
-void InitClockTo16MHz()
+static void InitClockTo16MHz()
 {
     if (CALBC1_16MHZ==0xFF)                  // If calibration constant erased
     {
-        while(1);                               // do not load, trap CPU!!
+        while(1);                            // do not load, trap CPU!!
     }
-    DCOCTL = 0;                               // Select lowest DCOx and MODx settings
-    BCSCTL1 = CALBC1_16MHZ;                    // Set DCO
-    DCOCTL = CALDCO_16MHZ;
-    __delay_cycles(100000);
+    DCOCTL = 0;                              // Select lowest DCOx and MODx settings
+    BCSCTL1 = CALBC1_16MHZ;                  // Set DCO
+    DCOCTL = CALDCO_16MHZ;                   
 }
